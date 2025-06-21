@@ -6,3 +6,5 @@ google-api-python-client==1.7.11
 google-auth==1.6.3
 gunicorn==19.9.0
 mysqlclient==1.4.5
+protobuf>=4.25.8 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=2.5.0 # not directly required, pinned by Snyk to avoid a vulnerability
